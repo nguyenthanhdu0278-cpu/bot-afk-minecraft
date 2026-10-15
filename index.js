@@ -6,7 +6,7 @@ function createBot() {
         // Ép buộc bot chạy đúng cổng game Minecraft Java mặc định (25565)
         port: 25565, 
         username: process.env.USERNAME,
-        version: process.env.VERSION || '1.20.1'
+        version: process.env.VERSION || '1.21.11'
     });
 
     bot.on('spawn', () => {
